@@ -1,0 +1,111 @@
+/* Main container for the card */
+.main-container {
+  width: 320px; /* Slimmer card width */
+  background-color: #F7F7F7; /* Light background */
+  border-radius: 15px; /* Rounded corners */
+  margin: 30px auto; /* Centering the card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+  overflow: hidden; /* To prevent content overflow */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Image section */
+.hero-image {
+  width: 100%; /* Full-width image */
+  height: auto;
+  border-radius: 0 0 0 0; /* No rounded corners */
+}
+
+/* Header for name and title */
+header {
+  text-align: center;
+  padding: 20px 15px;
+  background-color: #FFFFFF;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+header p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #F36F27; /* Orange color for title */
+  margin: 5px 0;
+}
+
+header small {
+  font-size: 0.85rem;
+  color: #7D7D7D;
+}
+
+/* Button styles for contact */
+button {
+  width: 130px;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  background-color: #E8E8E8;
+  color: #333;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+button:nth-of-type(2) {
+  background-color: #0077B5; /* LinkedIn Blue */
+  color: white;
+}
+
+button i {
+  font-size: 1rem; /* Size of icons inside buttons */
+}
+
+/* Content section */
+.main-content {
+  padding: 20px;
+  background-color: #FFFFFF;
+  color: #333;
+}
+
+.main-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.main-content p {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #5A5A5A;
+}
+
+/* Footer social icons section */
+.footer-backdrop {
+  background-color: #F7F7F7;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #E0E0E0;
+}
+
+.footer-backdrop i {
+  font-size: 1.5rem;
+  color: #555;
+  cursor: pointer;
+}
+
+.footer-backdrop i:hover {
+  color: #333;
+}
